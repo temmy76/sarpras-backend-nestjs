@@ -14,7 +14,7 @@ import { CreateInspeksiDto } from './dto/create-inspeksi.dto';
 import { UpdateInspeksiDto } from './dto/update-inspeksi.dto';
 
 @Controller('inspeksis')
-export class InspeksiController {
+export class InspeksisController {
   logger = new Logger('InspeksiController');
   constructor(private inspeksisService: InspeksisService) {}
 
